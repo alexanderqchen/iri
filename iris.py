@@ -12,7 +12,7 @@ def preprocess():
     ftest = []
     ltest = []
     for i in range(len(iris.data)):
-        if i%2 == 0:
+        if i % 2 == 0:
             ftrain.append(iris.data[i])
             ltrain.append(iris.target[i])
         else:
